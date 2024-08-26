@@ -3,10 +3,10 @@ public class Main {
 
         Bmiservice service = new Bmiservice();
 
-        float weight_m = 1.87F;
-        int height_kg = 98;
+        float weightM = 1.87F;
+        int heightKg = 98;
 
-        int bmi_index = service.calculate(weight_m, height_kg); //
-        System.out.println("bmi_index=" + bmi_index);
+        int bmiIndex = service.calculate(weightM, heightKg); //
+        System.out.println("bmiIndex=" + bmiIndex);
     }
 }
